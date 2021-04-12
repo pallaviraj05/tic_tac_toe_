@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(45deg, #80dada, #c48888);
+}
+section {
+  text-align: center;
+}
+.game-name {
+  color: rgb(14, 15, 15);
+}
+.game-restart {
+  background-color: rgb(26, 212, 119);
+}
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 60px auto;
+  background-color: darkcyan;
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid greenyellow;
+  cursor: pointer;
+  font-size: 60px;
+}
